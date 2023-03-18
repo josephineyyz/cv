@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+</head>
+<body>
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>j'aime regarder les films romantiques</li>
+        <li>je fait du pilate deux fois par samiane</li>
+        <li>j'adore beaucoup prendre le petit déjeuner avez ma amies</li>
+        <li>j'aime regarder le match de football en ligne</li>
+    </ol>
+    <table border="1">
+        <colgroup>
+            <col/> <!--the first column is not going to  apply any color-->
+            <col style="background-color : yellowgreen" /> 
+            <!--if you want to apply the color in both two rows than you should 
+                 use span="2" after the style attribute-->
+        </colgroup>
+        <tr>
+            <th rowspan="3">Les Films romantiques</th>
+            <td>Sense and Sensibility</td>
+        </tr>
+        <tr>
+            <td>Pride and Prejuedice</td>
+        </tr>
+        <tr>
+            <td>Little Women</td>
+        </tr>
+        <tr>
+            <th colspan="2">le pilate</th>
+        </tr>
+        <tr>
+            <th colspan="2">Le petit déjeuner</th>
+        </tr>
+        <tr>
+            <th colspan="2">Le match de football</th>
+        </tr>
+    </table>
+    <!--
+        1. a table always starts from <table> and close by </table>
+        2. <td>les films</td>
+        <td>pride and prejuedice</td>
+        the <td></td> are the cells
+        so now you create two cells in a row
+        3. if you want to create the second row than you should apply <tr></tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        4. there is a way to make the header in a table, we use <th></th>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    -->
+    <!--
+        rowspan : is use to span the row into the number you apply
+        colspan : is use to span the column related to the number you apply
+        <th rowspan="3">les films</th> : this means les films will span across three rows
+        <td colspan="2">le pilate</td> : this means le pilate will span across two column
+    -->
+</body>
+</html>

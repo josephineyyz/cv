@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--all the elements can have attribute, 
+        attribute provide additional information about elements
+        attribute: name="value"-->
+        <!--<a href="http://www.w3schools.com">
+        the <a> tag define a hyperlink
+        the herf attribute specify the URL of the page the link goes to-->
+        <!--<img scr="img_croissant.jpg"
+        the tag <img> is used to embed a image in an html page.
+        the scr attribute specifies the path to the image to be displayed.-->
+        <title>🥐 My Croissant</title>
+    </head>
+    <body>
+        <table cellspacing="25">
+            <tr>
+                <td>
+                    <img src="snoopy.jpeg" alt="it's not me" width="200" height="200">
+                    <img src="images/suiss.JPG" alt="I was in swiss" width="200" height="200">
+                </td>
+                <td>
+                    <h1><em>Josephine</em></h1>
+                    <!-- command s: save, commend r: refresh-->
+                    <p><em>J'aime <strong>Les Croissants</strong> en Italie</em></p>
+                    <!--the differences between <i></i> and <em></em>
+                    <em> emphasize its content, but <i> only change the view of the text.-->
+                    <p>Bonjour je m'appelle Josephine<br>
+                    Je suis étidiant de l'université</p>
+                </td>
+            </tr>
+        </table>
+        <!-- the <p> element : a paragragh
+            a paragraph always starts from a new line. and the browser will autometically 
+        add some space between paragraph.-->
+        <!-- use <br> if you want some space but don't want to start a new paragraph-->
+        <!-- the <pre> preserve both space and line-->
+        <hr>
+        <h4>Recently I have visited some of the countries in Europe <br>and it was a 
+        life changing experience that made me grow up a lot</h4>
+        <hr>
+        <br>
+        <table border="1">
+            <thead>
+                <th>Dates</th>
+                <th>Country</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022.10</td>
+                    <td><a href="germany.html">Germany</a></td>
+                </tr>
+                <!-- <tr> : the row 
+                    <td> : the cells in the row-->
+                <tr>
+                    <td>2022.11</td>
+                    <td>Italy</td>
+                </tr>
+                <tr>
+                    <td>2022.12</td>
+                    <td>Zech</td>
+                </tr>
+                <tr>
+                    <td>2022.12</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td>2023.01</td>
+                    <td>Switzerland</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <!--the reason to use <thead> <tbody> <tfoot> is that 
+            we can styling them separately.-->
+        <br>
+        <hr>
+        <h4>Qu'est-ce que tu aimes le pays?</h4>
+        <table>
+            <tr>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>Germany</td>
+                            <td>⭐️⭐️⭐️</td>
+                        </tr>
+                        <tr>
+                            <td>Italy</td>
+                            <td>⭐️⭐️⭐️⭐️⭐️</td>
+                        </tr>
+                        <tr>
+                            <td>Zech</td>
+                            <td>⭐️⭐️⭐️</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>Austria</td>
+                            <td>⭐️⭐️⭐️⭐️</td>
+                        </tr>
+                        <tr>
+                            <td>Switzerland</td>
+                            <td>⭐️⭐️⭐️⭐️⭐️</td>
+                        </tr>
+                        <tr>
+                            <td>Frence</td>
+                            <td>⭐️⭐️⭐️⭐️</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!--the idea of the table is to create a single table, 
+            and inside the table are two tables
+            to do this we create a row with two cells 
+            the first table is put in the first cell
+            and the second table is put in the second cell-->
+        <!--une question : if I apply different numbers of rows in two table 
+            they don't start from the same horizon?
+            ex. i delete the cell of <td>Frence</td>-->
+        <hr>
+        <p><a href="habits.html">Habits I'm building</a></p>
+        <p><a href="hobbies.html">My Hobbies</a></p>
+        <p><a href="contact.html">Contact me</a></p>
+    </body>
+</html>
